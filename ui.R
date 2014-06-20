@@ -3,7 +3,7 @@
 
 shinyUI( 
   pageWithSidebar(
-    headerPanel("Percentile calculator"),
+    headerPanel("Percentile graphic calculator"),
     sidebarPanel(
       
       h5('distribution'),
@@ -198,7 +198,8 @@ shinyUI(
   
     h3("Instructions"),
     helpText("·Choose the distribution you want to work with"), 
-    helpText("·Select the upper limit of the visualization window (the lower limit will be either 0 or the inverse depending on the distribution)"),
+    helpText("·Select the upper limit of the visualization window (the lower limit will be either the inversed input or 
+             0 depending on the distribution)"),
     helpText("·Input the parmameters which define the distribution (mean, sd or the degree of freedom etc.)"), 
     helpText("·Define the area of the dsitribution your are interestd in (one of the tails, range or inner range" ),
     helpText("·Input the cut off value (or the upper and lower interval limits for Outer and Inner range)"), 
