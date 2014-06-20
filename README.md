@@ -1,4 +1,4 @@
-Percentile Graphic calculator
+Percentile graphic calculator
 ============
 
 
